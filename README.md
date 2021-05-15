@@ -6,8 +6,9 @@
 
 
 **Screenshots**
-[Home](https://gitlab.com/herle.sanjay/my-winning-slot/-/blob/master/files/home.png)
-[Notification](https://gitlab.com/herle.sanjay/my-winning-slot/-/blob/master/files/notification.png)
+- [Home](https://gitlab.com/herle.sanjay/my-winning-slot/-/blob/master/files/home.png)
+- [Notification](https://gitlab.com/herle.sanjay/my-winning-slot/-/blob/master/files/notification.png)
+
 
 **Contributions**
 
