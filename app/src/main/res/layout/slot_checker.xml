@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/background_color">
+
+    <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/toolbar"></androidx.appcompat.widget.Toolbar>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_title"
+            android:layout_marginStart="20dp"
+            android:textColor="@color/white"
+            android:textSize="32sp"></TextView>
+
+    <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:orientation="vertical"
+    >
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/gray"
+                android:hint="@string/name_text"
+                android:inputType="text"
+                android:textColor="@color/gray"
+                android:textColorHint="@color/gray"
+                android:text="Sanjay Herle"/>
+
+        <EditText
+                android:id="@+id/edPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="@color/gray"
+                android:hint="@string/phone"
+                android:inputType="phone"
+                android:textColor="@color/gray"
+                android:textColorHint="@color/gray"
+                android:text="9900047060"/>
+
+        <EditText
+                android:id="@+id/etOtp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="@color/gray"
+                android:hint="@string/otp"
+                android:inputType="number"
+                android:textColor="@color/gray"
+                android:visibility="gone"
+                android:textColorHint="@color/gray"/>
+        <EditText
+                android:id="@+id/etAge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="@color/gray"
+                android:hint="@string/age"
+                android:inputType="number"
+                android:textColor="@color/gray"
+                android:textColorHint="@color/gray"
+                android:text="18"
+                android:visibility="gone"
+        />
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ageSelection"
+                android:textColor="@color/gray"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"
+                android:layout_marginStart="5dp"
+
+        ></TextView>
+
+        <RadioGroup
+                android:id="@+id/radio_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:buttonTint="@color/white"
+                android:layout_above="@+id/view_below">
+
+            <RadioButton
+                    android:id="@+id/rb_option1"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:textColor="@color/gray"
+                    android:text="18"
+                    android:buttonTint="@color/white"
+            />
+
+            <RadioButton
+                    android:id="@+id/rb_option2"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:textColor="@color/gray"
+                    android:buttonTint="@color/white"
+                    android:layout_height="wrap_content"
+                    android:text="45"/>
+        </RadioGroup>
+
+        <EditText
+                android:id="@+id/etPin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="@color/gray"
+                android:hint="@string/pin"
+                android:inputType="number"
+                android:textColor="@color/gray"
+                android:textColorHint="@color/gray" android:text="560098"/>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+        >
+            <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/button_style"
+                    android:padding="10dp"
+                    android:text="@string/confirm"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="22sp"
+                    android:id="@+id/btConfirm"
+                    android:visibility="gone"/>
+
+            <Button
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/button_style"
+                    android:padding="10dp"
+                    android:text="@string/verify"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="22sp"
+                    android:id="@+id/btVerify"
+                    android:visibility="gone"/>
+
+            <Button
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/button_style"
+                    android:padding="10dp"
+                    android:text="@string/slots"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:id="@+id/btSlot"/>
+
+            <Button
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_style"
+                    android:padding="10dp"
+                    android:paddingLeft="100dp"
+                    android:text="@string/notify"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="22sp"
+                    android:visibility="gone"
+                    android:id="@+id/btNotify" android:baselineAligned="false"/>
+
+            <ToggleButton
+                    android:id="@+id/tgNotifier"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_style"
+                    android:padding="10dp"
+                    android:paddingLeft="100dp"
+                    android:text="@string/notify"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textOff="Enable Notifier"
+                    android:textOn="Disable Notifier"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"/>
+
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:background="@color/cardview_light_background"
+                      android:layout_marginBottom="10dp" android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardPreventCornerOverlap="true"
+                    app:cardUseCompatPadding="true">
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="5dp"
+                        android:gravity="center"
+                        android:weightSum="11"
+                        android:orientation="horizontal">
+
+                    <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="3"
+                            android:layout_height="wrap_content"
+                            android:text="Date"
+                            android:textStyle="bold"/>
+
+                    <TextView
+
+                            android:layout_width="0dp"
+                            android:layout_weight="3"
+                            android:layout_height="wrap_content"
+                            android:text="Center Name"
+                            android:textStyle="bold"/>
+
+                    <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="2"
+                            android:layout_height="wrap_content"
+                            android:text="Vaccine"
+                            android:textStyle="bold"/>
+
+
+                    <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            android:layout_height="wrap_content"
+                            android:text="Slots"
+                            android:textStyle="bold"/>
+
+                    <TextView
+                            android:id="@+id/txtView_age"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:text="Age"
+                            android:textStyle="bold"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rv_main"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+            />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

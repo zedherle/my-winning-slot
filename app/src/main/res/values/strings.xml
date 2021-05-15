@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">My Winning Slot</string>
+    <string name="app_title">The Slot Check</string>
+    <string name="name">Full Name</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="ageSelection">Age Group</string>
+    <string name="confirm">Confirm</string>
+    <string name="verify">Verify</string>
+    <string name="slots">Get Slots</string>
+    <string name="notify">Notify</string>
+    <string name="otp">OTP</string>
+    <string name="age">Age Group</string>
+    <string name="pin">Pincode</string>
+    <string name="name_text">Name</string>
+    <string name="channel_name">Vaccine Alert</string>
+    <string name="channel_description">Vaccine Available</string>
+    <string name="default_notification_channel_id">Vaccine Alert</string>
+</resources>
