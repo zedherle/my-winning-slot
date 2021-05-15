@@ -12,7 +12,7 @@
     <string name="otp">OTP</string>
     <string name="age">Age Group</string>
     <string name="pin">Pincode</string>
-    <string name="name_text">Name</string>
+    <string name="name_text">Full Name</string>
     <string name="channel_name">Vaccine Alert</string>
     <string name="channel_description">Vaccine Available</string>
     <string name="default_notification_channel_id">Vaccine Alert</string>

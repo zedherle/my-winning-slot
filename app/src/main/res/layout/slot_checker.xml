@@ -36,7 +36,7 @@
                 android:inputType="text"
                 android:textColor="@color/gray"
                 android:textColorHint="@color/gray"
-                android:text="Sanjay Herle"/>
+                />
 
         <EditText
                 android:id="@+id/edPhone"
@@ -48,7 +48,7 @@
                 android:inputType="phone"
                 android:textColor="@color/gray"
                 android:textColorHint="@color/gray"
-                android:text="9900047060"/>
+                />
 
         <EditText
                 android:id="@+id/etOtp"
@@ -125,7 +125,7 @@
                 android:hint="@string/pin"
                 android:inputType="number"
                 android:textColor="@color/gray"
-                android:textColorHint="@color/gray" android:text="560098"/>
+                android:textColorHint="@color/gray"/>
 
         <LinearLayout
                 android:layout_width="match_parent"
