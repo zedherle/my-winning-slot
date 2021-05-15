@@ -1,7 +1,7 @@
 **My Winning Slot**
-- The Application retreives the vaccine slot available for the given pincode and agegroup
-- The Application periodically checks the available slot for the given pincode and agegroup
-- The initial version of the application with bare minuimum functionalities
+- The Application retreives the vaccine slot available for the given pincode and agegroup.
+- The Application periodically checks the available slot for the given pincode and agegroup.
+- The initial version of the application with bare minuimum functionalities.
 - API -> https://apisetu.gov.in/public/marketplace/api/cowin/cowin-public-v2#/
 
 
