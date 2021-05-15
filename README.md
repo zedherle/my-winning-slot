@@ -1,10 +1,10 @@
-My Winning Slot
+**My Winning Slot**
 - The Application retreives the vaccine slot available for the given pincode and agegroup
 - The Application periodically checks the available slot for the given pincode and agegroup
 
-Screenshots
+**Screenshots**
 
-Contributions 
+**Contributions **
 I would love to have your input on
 - Reporting a bug
 - Discussing the current state of the code
