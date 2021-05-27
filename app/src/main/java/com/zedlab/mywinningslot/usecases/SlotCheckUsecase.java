@@ -29,7 +29,7 @@ public class SlotCheckUsecase {
                         regionSlot.setAgeGroup("" + eachSession.getMin_age_limit());
                         regionSlot.setVaccineName(eachSession.getVaccine());
                         regionSlot.setSlotId(eachSession.getSession_id());
-                        regionSlot.setSlots("" + eachSession.getSlots().size());
+                        regionSlot.setSlots("" + eachSession.getAvailable_capacity());
                         regionSlots.add(regionSlot);
                     });
                 });

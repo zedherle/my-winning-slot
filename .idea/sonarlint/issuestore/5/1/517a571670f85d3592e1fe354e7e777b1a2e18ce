@@ -1,0 +1,48 @@
+
+Q
+java:S1128"4Remove this unused import 'android.content.Context'.(©Ê‰è8‡á¬…—/
+j
+java:S1128"MRemove this unused import 'com.zedlab.mywinningslot.data.service.OtpService'.(ºÂ¡½8˜—±…—/
+h
+java:S1128"FRemove this unused import 'com.zedlab.mywinningslot.model.RegionSlot'.(Âé±¥øÿÿÿÿ8š¢«…—/
+^
+java:S1128"<Remove this unused import 'android.app.NotificationManager'.(¸˜ùÑûÿÿÿÿ8‡á¬…—/
+^
+java:S1128"ARemove this unused import 'androidx.core.app.NotificationCompat'.(œéÔã8ˆá¬…—/
+O
+java:S1128"3Remove this unused import 'android.content.Intent'.(³ð‹G8ˆá¬…—/
+S
+java:S1128"6Remove this unused import 'android.app.PendingIntent'.(šºÞ—8ˆá¬…—/
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8š¢«…—/
+E
+java:S1128"*Remove this unused import 'java.util.Map'.(¼è½Òþÿÿÿÿ
+^
+java:S1128"<Remove this unused import 'android.app.NotificationChannel'.(ÒÒ…·ýÿÿÿÿ8‰á¬…—/
+Q
+java:S1128"5Remove this unused import 'android.app.Notification'.(¸Ó†98‰á¬…—/
+O
+java:S1128	"-Remove this unused import 'android.os.Build'.(ãÇ¤Úýÿÿÿÿ8‰á¬…—/
+z
+java:S1450""XRemove the "btConfirm" field and declare it as a local variable in the relevant methods.(û¼û¤ÿÿÿÿÿ8¤µ¦…—/
+y
+java:S1450$"WRemove the "btNotify" field and declare it as a local variable in the relevant methods.(Ò¿â¿ûÿÿÿÿ8íÑ¦…—/
+x
+java:S1450%"VRemove the "btSlots" field and declare it as a local variable in the relevant methods.(òªÚÿÿÿÿÿ8÷õ¦…—/
+t
+java:S1450#"WRemove the "btVerify" field and declare it as a local variable in the relevant methods.(ÃÝÞ„8¥µ¦…—/
+v
+java:S1450!"TRemove the "etAge" field and declare it as a local variable in the relevant methods.(ë ßõøÿÿÿÿ8ÍÖ¥…—/
+v
+java:S1450"TRemove the "etOtp" field and declare it as a local variable in the relevant methods.(¯­½þÿÿÿÿ8¥…—/
+s
+java:S1450"VRemove the "etPhone" field and declare it as a local variable in the relevant methods.(º–è¼8íö¤…—/
+}
+java:S1450)"[Remove the "recyclerView" field and declare it as a local variable in the relevant methods.(¿á© ýÿÿÿÿ8¡¢«…—/
+
+java:S1450("]Remove the "toggleNotifier" field and declare it as a local variable in the relevant methods.(òƒ–Ýÿÿÿÿÿ8Ý®…—/
+V	java:S125F"<This block of commented-out lines of code should be removed.(ËÔç´øÿÿÿÿ
+j
+java:S3986g"HMake sure that week Year "YYYY" is expected here instead of Year "yyyy".(÷›»Èûÿÿÿÿ8Ìƒ³…—/
+H
+java:S1068"+Remove this unused "etPhone" private field.(º–è¼8œ÷¤…—/

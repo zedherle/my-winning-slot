@@ -41,7 +41,8 @@ public class SlotCheckerWorker extends ListenableWorker {
             ServiceCallback<List<RegionSlot>> serviceCallback = new ServiceCallback<List<RegionSlot>>() {
                 @Override
                 public void onSuccess(List<RegionSlot> response) {
-                    addNotification("Your Winning Slot", "Vaccine Available", getApplicationContext());
+                    if(response.stream().filter(regionSlot -> regionSlot.getAgeGroup()==ageGroup).count()>0)
+                    {addNotification("Your Winning Slot", "Vaccine Available for " +pin, getApplicationContext());}
                     completer.set(Result.success());
                 }
                 @Override

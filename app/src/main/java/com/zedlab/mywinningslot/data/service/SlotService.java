@@ -15,7 +15,6 @@ public class SlotService {
 
     public interface SlotCheckCallback {
         void onSuccess(Centers centers);
-
         void onFailure();
     }
 

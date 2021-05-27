@@ -21,7 +21,7 @@ public class SlotCheckNotifierUsecase {
                 .putString("agegroup", agegroup)
                 .build();
         PeriodicWorkRequest stockCheckRequest = new PeriodicWorkRequest.Builder
-                (SlotCheckerWorker.class, 2, TimeUnit.MINUTES)
+                (SlotCheckerWorker.class, 15, TimeUnit.MINUTES)
                 .setInputData(inputFilter)
                 .addTag(SLOT_NOTIFY)
                 .build();
